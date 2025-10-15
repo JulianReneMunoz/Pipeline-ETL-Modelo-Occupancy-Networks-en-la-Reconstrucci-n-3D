@@ -14,7 +14,13 @@ You may not:
  - Use the materials for commercial purposes
  - Redistribute original ShapeNet files or any derivative dataset containing them
 
+Uso de datos ShapeNet
 
+Este proyecto utiliza datos derivados del dataset ShapeNetCore v2
+(© Princeton University & Stanford University, 2015).
+Los modelos 3D originales no se incluyen en este repositorio.
+Los metadatos y análisis generados se comparten bajo licencia CC BY-NC 4.0,
+únicamente para fines académicos y de investigación.
 
 # PRISMA-ETL ShapeNetCore v2 — Ejecución LOCAL (Anaconda)
 
