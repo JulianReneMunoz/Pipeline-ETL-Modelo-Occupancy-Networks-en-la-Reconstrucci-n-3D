@@ -22,6 +22,7 @@ Los modelos 3D originales no se incluyen en este repositorio.
 Los metadatos y análisis generados se comparten bajo licencia CC BY-NC 4.0,
 únicamente para fines académicos y de investigación.
 - https://modelnet.cs.princeton.edu/#
+- https://3dshapenets.cs.princeton.edu/
 
 # PRISMA-ETL ShapeNetCore v2 — Ejecución LOCAL (Anaconda)
 
