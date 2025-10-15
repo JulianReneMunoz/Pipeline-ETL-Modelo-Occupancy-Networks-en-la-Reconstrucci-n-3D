@@ -21,6 +21,7 @@ Este proyecto utiliza datos derivados del dataset ShapeNetCore v2
 Los modelos 3D originales no se incluyen en este repositorio.
 Los metadatos y análisis generados se comparten bajo licencia CC BY-NC 4.0,
 únicamente para fines académicos y de investigación.
+- https://modelnet.cs.princeton.edu/#
 
 # PRISMA-ETL ShapeNetCore v2 — Ejecución LOCAL (Anaconda)
 
@@ -29,7 +30,7 @@ Este repositorio/notebook implementa un **pipeline ETL + EDA** reproducible para
 - **Transformación y Validación (PRISMA-ETL)** con checks SI/NO, detección de duplicados por `sha256` y KPIs de calidad
 - **Carga** a **SQLite** y **Excel** con hojas `Metadatos` y `Resumen`
 - **EDA** con visualizaciones en **matplotlib** (una gráfica por celda)
-- https://modelnet.cs.princeton.edu/#
+
 
 > Si buscas la versión para Google Colab, usa el cuaderno `PRISMA_ShapeNet_Colab.ipynb`. Este README está orientado a **Windows/Linux** con **Anaconda**.
 
