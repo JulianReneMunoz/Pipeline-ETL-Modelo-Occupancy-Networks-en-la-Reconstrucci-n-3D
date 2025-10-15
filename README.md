@@ -69,6 +69,66 @@ OUT_DIR = Path(r"C:\Users\TU_USUARIO\Documents\ShapeNet_PRISMA")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 ```
 
+##Estructura de carpetas
+[Fuente de datos: ShapeNetCore v2, Choy et al., Mesh-Fusion]
+       │
+       ▼
+┌───────────────────────────────────────────┐
+│        FASE 1. EXTRACCIÓN (E)             │
+├───────────────────────────────────────────┤
+│ - Descarga y verificación (MD5/SHA256)    │
+│ - Descompresión y organización por clase  │
+│ - Indexación de .binvox, .obj, .png       │
+│ - Perfilado inicial → DataFrame pandas     │
+└───────────────────────────────────────────┘
+       │
+       ▼
+┌───────────────────────────────────────────┐
+│     FASE 2. TRANSFORMACIÓN (T)            │
+├───────────────────────────────────────────┤
+│ - Parsing y normalización de metadatos     │
+│ - Enriquecimiento (vértices, caras, watertight)│
+│ - Hash SHA256 para duplicados              │
+│ - Control de calidad (format_valid, nulls) │
+│ - KPIs: completitud, consistencia, tipo    │
+└───────────────────────────────────────────┘
+       │
+       ▼
+┌───────────────────────────────────────────┐
+│         FASE 3. CARGA (L)                 │
+├───────────────────────────────────────────┤
+│ - Exportación CSV / Parquet               │
+│ - Almacenamiento en SQLite (metadatos)    │
+│ - Generación de Excel con resumen KPIs    │
+│ - Registro de logs y auditoría            │
+└───────────────────────────────────────────┘
+       │
+       ▼
+┌───────────────────────────────────────────┐
+│   FASE 4. VALIDACIÓN Y ANÁLISIS (EDA)     │
+├───────────────────────────────────────────┤
+│ - Evaluación de score_calidad             │
+│ - Visualización (barras, pastel, boxplot) │
+│ - Identificación de clases dominantes     │
+│ - Detección de outliers y sesgos          │
+└───────────────────────────────────────────┘
+       │
+       ▼
+┌───────────────────────────────────────────┐
+│   FASE 5. INTEGRACIÓN CON MODELO 3D       │
+├───────────────────────────────────────────┤
+│ - Exportación de dataset limpio           │
+│ - Entrenamiento del modelo OccupancyNet   │
+│ - Generación de superficies 3D implícitas │
+│ - Evaluación (IoU, PSNR, Chamfer Dist.)   │
+└───────────────────────────────────────────┘
+       │
+       ▼
+[Resultados reproducibles, trazabilidad, Zenodo, GitHub]
+
+
+
+
 > En Linux, usa rutas como `/home/usuario/Datasets/ShapeNetVox32`.
 
 ---
