@@ -42,6 +42,10 @@ Este repositorio/notebook implementa un **pipeline ETL + EDA** reproducible para
 - **Dataset local**: estructura tipo `ShapeNetVox32` (subcarpetas por *clase* → *id* → `model.binvox`)
 - **Espacio en disco** acorde al subset que vayas a indexar
 
+## Anaconda
+<img width="1202" height="794" alt="image" src="https://github.com/user-attachments/assets/8ccb6801-5f29-4210-a261-6926c4bc88eb" />
+
+
 ### Paquetes
 Puedes instalar con **conda** o **pip**:
 
