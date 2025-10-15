@@ -70,10 +70,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 ```
 
 ##Estructura de carpetas
-<img width="315" height="646" alt="image" src="https://github.com/user-attachments/assets/a94f8026-7fdb-4d10-9b39-beecee27eea6" />
-
-
-
+<img width="1024" height="1536" alt="Arquitectura_pipeline_ver1png" src="https://github.com/user-attachments/assets/343cc334-2095-45d4-bc41-ffd8f28193a6" />
 
 
 > En Linux, usa rutas como `/home/usuario/Datasets/ShapeNetVox32`.
