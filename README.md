@@ -32,7 +32,7 @@ Este repositorio/notebook implementa un **pipeline ETL + EDA** reproducible para
 - **Carga** a **SQLite** y **Excel** con hojas `Metadatos` y `Resumen`
 - **EDA** con visualizaciones en **matplotlib** (una gráfica por celda)
 <img width="967" height="486" alt="image" src="https://github.com/user-attachments/assets/e2dbe57e-072a-42c0-b432-2e6d4b8c44c3" />
-
+https://3dshapenets.cs.princeton.edu/poster.pdf
 
 > Si buscas la versión para Google Colab, usa el cuaderno `PRISMA_ShapeNet_Colab.ipynb`. Este README está orientado a **Windows/Linux** con **Anaconda**.
 
