@@ -31,6 +31,7 @@ Este repositorio/notebook implementa un **pipeline ETL + EDA** reproducible para
 - **Transformación y Validación (PRISMA-ETL)** con checks SI/NO, detección de duplicados por `sha256` y KPIs de calidad
 - **Carga** a **SQLite** y **Excel** con hojas `Metadatos` y `Resumen`
 - **EDA** con visualizaciones en **matplotlib** (una gráfica por celda)
+<img width="967" height="486" alt="image" src="https://github.com/user-attachments/assets/e2dbe57e-072a-42c0-b432-2e6d4b8c44c3" />
 
 
 > Si buscas la versión para Google Colab, usa el cuaderno `PRISMA_ShapeNet_Colab.ipynb`. Este README está orientado a **Windows/Linux** con **Anaconda**.
